@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/">Home</a>
+      </nav>
+    </header>
+    <main>
+        <form method="POST" action="http://localhost:3000/profile">
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname" value="">
+        <br>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname" value="">
+
+        <p>What's your favorite time of the year:</p>
+        <input type="radio" id="winter" name="fav_season" value="winter">
+        <label for="winter">Winter</label><br>
+        <input type="radio" id="spring" name="fav_season" value="spring">
+        <label for="spring">Spring</label><br>
+        <input type="radio" id="summer" name="fav_season" value="summer">
+        <label for="summer">Summer</label><br>
+        <input type="radio" id="autumn" name="fav_season" value="autumn">
+        <label for="autumn">Autumn</label>
+
+        <p>How did you hear about us?</p>
+        <input type="checkbox" id="instagram" name="instagram" value="instagram">
+        <label for="instagram">Instagram</label><br>
+        <input type="checkbox" id="facebook" name="facebook" value="facebook">
+        <label for="facebook">Facebook</label><br>
+        <input type="checkbox" id="google" name="google" value="google">
+        <label for="google">Google</label><br>
+        
+        <p>How can we contact you?</p>
+        <label for="contact">Choose a method:</label>
+  <select name="contact" id="contact">
+    <option value="email">Email</option>
+    <option value="text">Text Message</option>
+    <option value="phone">Phone</option>
+    <option value="mail">Mail</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">
+        </form>
+    
+    </main>
+    <footer>Copyright 2021 &copy;</footer>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Labwork 1</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Labwork 1">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Abby">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+
+</head>
+<body>
+    <header>
+    <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="./form.html">Form</a>
+      </nav>
+    </header>
+
+    <article>
+    <h1>My HTML Learning Journey</h1>
+    <h2>Learning Elements - div, span, p, pre,
+        ul, li, ol, article</h2>
+    
+      <div>Avocado</div>
+        <p><span style="font-size:larger">Avocados</span> are <span style="color:rgb(172, 210, 58)">bright green</span>
+        fruit and are great for <span style="font-weight:bold">salads.</span>
+        </p>
+      <div>Kiwi</div>
+      <p><span style="font-size:larger">Kiwis</span> have a firm, translucent <span style="color:rgb(111, 145, 10)">green</span>
+       flesh and are so <span style="background-color:powderblue;">yummy!</span>
+        </p>
+      <div>Banana</div>
+      <p><span style="background-color:rgb(230, 207, 9);">Bananas</span> are <span style="color:rgb(210, 58, 157)">my favorite</span>
+        and they are available <span style="font-family:courier;">year round!</span>
+        </p>
+
+        <p>
+            p represents paragraph
+        </p>
+            <pre>
+            Text in         a pre element
+            is displayed in a fixed-width
+            font, and it preserves
+            both      spaces and
+            line breaks
+            </pre>
+
+    <h3>An unordered HTML list</h3>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ul> 
+
+    <h3>An ordered HTML list</h3>
+
+        <ol>
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Milk</li>
+        </ol>  
+    </article>
+    <article>
+        <h2>Learning Elements - table, thead, tbody, tr,
+            td, th</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th colspan="2">First header</th>
+                    <th>Second header</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>First cell - first row</td>
+                        <td>Second cell - first row</td>
+                        <td>Third cell - first row</td>
+                    </tr>
+                    <tr>
+                        <td>First cell - second row</td>
+                        <td>Second cell - second row</td>
+                        <td rowspan="2">Third cell - second row</td>
+                    </tr>
+                    <tr>
+                        <td>First cell - third row</td>
+                        <td>Second cell - third row</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+            
+    </article>
+    <article>
+        <h2>HTML Elements - img, video, audio</h2>
+
+        <div>
+        <img src="https://picsum.photos/200/300" alt="" />
+        </div>
+
+        <div>
+        <video controls width="250">
+            <source src="/media/cc0-videos/flower.webm"
+                    type="video/webm">
+            <source src="video.mp4"
+                    type="video/mp4">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+        </div>
+        
+        <audio controls src="audio.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+        </audio>
+
+    <h2>HTML Elements - form, input, label, select, option,button</h2>
+   
+
+</body>
+</html>
